@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/past.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>STUDENT</h1>
+    <img src="./student26_files/aseem.jpg" width="200px" height="200px">
+    <p id="student1">Name  :  ASEEM JOSHI<br>Age  :  22<br>Dob :  10/05/2001<br>Gender  :  MALE<br>Nationality :  BHARTIYA<br>Caste :  BRAHMIN<br>Religion :  HINDU<br>Mob  :  9754853685<br>Hobbies :  CODING<br></p>
+    <br> <br> 
+    <img src="./student26_files/bhavisha.jpg" width="200px" height="200px">
+    <p id="student2">Name   :  BHAVISHA GANDHARVA<br>Age  :  23<br>Dob :  26/12/2000<br>Gender  :  FEMALE<br>Nationality :  BHARTIYA<br>Caste :  BRAHMIN<br>Religion :  HINDU<br>Mob  :  8200913637<br>Hobbies :  CODING<br></p>
+    <br> <br> 
+    <img src="./student26_files/ashish.jpg" width="200px" height="200px">
+    <p id="student3">Name   :  ASHISH JOSHI<br>Age  :  23<br>Dob :  11/11/2000<br>Gender  :  MALE<br>Nationality :  BHARTIYA<br>Caste :  BRAHMIN<br>Religion :  HINDU<br>Mob  :  8200913637<br>Hobbies :  CODING<br></p>
+    <br> <br>
+    <img src="./student26_files/dippi.jpg" width="200px" height="200px">
+    <p id="student4">Name   :  DIPANSHU YOGI<br>Age  :  23<br>Dob :  13/07/2000<br>Gender  :  MALE<br>Nationality :  BHARTIYA<br>Caste :  NATH<br>Religion :  HINDU<br>Mob  :  8889847568<br>Hobbies :  READING<br></p>
+    <br> <br>
+    <img src="./student26_files/rahul.jpg" width="200px" height="200px">
+    <p id="student5">Name   :  RAHUL RATHORE<br>Age  :  24<br>Dob :  13/06/1999<br>Gender  :  MALE<br>Nationality :  BHARTIYA<br>Caste :  TELI<br>Religion :  HINDU<br>Mob  :  6263857495<br>Hobbies :  DANCEING<br></p>
+    <br> <br>
+    <img src="./student26_files/sandeep.jpg" width="200px" height="200px">
+    <p id="student6">Name   :  SANDEEP RAJPUT<br>Age  :  24<br>Dob :  13/05/1999<br>Gender  :  MALE<br>Nationality :  BHARTIYA<br>Caste :  RAJPUT<br>Religion :  HINDU<br>Mob  :  6263857495<br>Hobbies :  SINGING<br></p>
+    
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script>
+    const student1=[ {NAME:"ASEEM JOSHI",AGE:"22",DOB:"10/05/2001",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"BRAHMIN",RELIGION:"HINDU",MOB:"9754853685",HOBBIES:"CODING"}];
+document.getElementById("student1").innerHTML =
+"Name  :  "+student1[0]["NAME"]+"<br>"
++"Age  :  "+student1[0]["AGE"]+"<br>"
++"Dob :  "+student1[0]["DOB"]+"<br>"
++"Gender  :  "+student1[0]["GENDER"]+"<br>"
++"Nationality :  "+student1[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student1[0]["CASTE"]+"<br>"
++"Religion :  "+student1[0]["RELIGION"]+"<br>"
++"Mob  :  "+student1[0]["MOB"]+"<br>"
++"Hobbies :  "+student1[0]["HOBBIES"]+"<br>"
+
+const student2 =[ {NAME:"BHAVISHA GANDHARVA",AGE:"23",DOB:"26/12/2000",GENDER:"FEMALE",NATIONALITY:"BHARTIYA",CASTE:"BRAHMIN",RELIGION:"HINDU",MOB:"8200913637",HOBBIES:"CODING"}];
+document.getElementById("student2").innerHTML =
+"Name   :  "+student2[0] ["NAME"]+"<br>"
++"Age  :  "+student2[0]["AGE"]+"<br>"
++"Dob :  "+student2[0]["DOB"]+"<br>"
++"Gender  :  "+student2[0]["GENDER"]+"<br>"
++"Nationality :  "+student2[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student2[0]["CASTE"]+"<br>"
++"Religion :  "+student2[0]["RELIGION"]+"<br>"
++"Mob  :  "+student2[0]["MOB"]+"<br>"
++"Hobbies :  "+student2[0]["HOBBIES"]+"<br>"
+
+
+
+const student3=[ {NAME:"ASHISH JOSHI",AGE:"23",DOB:"11/11/2000",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"BRAHMIN",RELIGION:"HINDU",MOB:"8200913637",HOBBIES:"CODING"}];
+document.getElementById("student3").innerHTML =
+"Name   :  "+student3[0] ["NAME"]+"<br>"
++"Age  :  "+student3[0]["AGE"]+"<br>"
++"Dob :  "+student3[0]["DOB"]+"<br>"
++"Gender  :  "+student3[0]["GENDER"]+"<br>"
++"Nationality :  "+student3[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student3[0]["CASTE"]+"<br>"
++"Religion :  "+student3[0]["RELIGION"]+"<br>"
++"Mob  :  "+student3[0]["MOB"]+"<br>"
++"Hobbies :  "+student3[0]["HOBBIES"]+"<br>"
+
+
+const student4=[ {NAME:"DIPANSHU YOGI",AGE:"23",DOB:"13/07/2000",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"NATH",RELIGION:"HINDU",MOB:"8889847568",HOBBIES:"READING"}];
+document.getElementById("student4").innerHTML =
+"Name   :  "+student4[0] ["NAME"]+"<br>"
++"Age  :  "+student4[0]["AGE"]+"<br>"
++"Dob :  "+student4[0]["DOB"]+"<br>"
++"Gender  :  "+student4[0]["GENDER"]+"<br>"
++"Nationality :  "+student4[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student4[0]["CASTE"]+"<br>"
++"Religion :  "+student4[0]["RELIGION"]+"<br>"
++"Mob  :  "+student4[0]["MOB"]+"<br>"
++"Hobbies :  "+student4[0]["HOBBIES"]+"<br>"
+
+
+const student5=[ {NAME:"RAHUL RATHORE",AGE:"24",DOB:"13/06/1999",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"TELI",RELIGION:"HINDU",MOB:"6263857495",HOBBIES:"DANCEING"}];
+document.getElementById("student5").innerHTML =
+"Name   :  "+student5[0] ["NAME"]+"<br>"
++"Age  :  "+student5[0]["AGE"]+"<br>"
++"Dob :  "+student5[0]["DOB"]+"<br>"
++"Gender  :  "+student5[0]["GENDER"]+"<br>"
++"Nationality :  "+student5[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student5[0]["CASTE"]+"<br>"
++"Religion :  "+student5[0]["RELIGION"]+"<br>"
++"Mob  :  "+student5[0]["MOB"]+"<br>"
++"Hobbies :  "+student5[0]["HOBBIES"]+"<br>"
+
+
+const student6=[ {NAME:"SANDEEP RAJPUT",AGE:"24",DOB:"13/05/1999",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"RAJPUT",RELIGION:"HINDU",MOB:"6263857495",HOBBIES:"SINGING"}];
+document.getElementById("student6").innerHTML =
+"Name   :  "+student6[0] ["NAME"]+"<br>"
++"Age  :  "+student6[0]["AGE"]+"<br>"
++"Dob :  "+student6[0]["DOB"]+"<br>"
++"Gender  :  "+student6[0]["GENDER"]+"<br>"
++"Nationality :  "+student6[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student6[0]["CASTE"]+"<br>"
++"Religion :  "+student6[0]["RELIGION"]+"<br>"
++"Mob  :  "+student6[0]["MOB"]+"<br>"
++"Hobbies :  "+student6[0]["HOBBIES"]+"<br>"
+
+
+const student7=[ {NAME:"SANDEEP RAJPUT",AGE:"24",DOB:"13/05/1999",GENDER:"MALE",NATIONALITY:"BHARTIYA",CASTE:"RAJPUT",RELIGION:"HINDU",MOB:"6263857495",HOBBIES:"SINGING"}];
+document.getElementById("student7").innerHTML =
+"Name   :  "+student7[0] ["NAME"]+"<br>"
++"Age  :  "+student7[0]["AGE"]+"<br>"
++"Dob :  "+student7[0]["DOB"]+"<br>"
++"Gender  :  "+student7[0]["GENDER"]+"<br>"
++"Nationality :  "+student7[0]["NATIONALITY"]+"<br>"
++"Caste :  "+student6[0]["CASTE"]+"<br>"
++"Religion :  "+student7[0]["RELIGION"]+"<br>"
++"Mob  :  "+student7[0]["MOB"]+"<br>"
++"Hobbies :  "+student7[0]["HOBBIES"]+"<br>"
+</script>
+</body></html>
